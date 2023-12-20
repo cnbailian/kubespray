@@ -1,0 +1,43 @@
+---
+namespace: kubernetes_sigs
+description: Deploy a production ready Kubernetes cluster
+name: kubespray215
+version: 2.15.2
+readme: README.md
+authors:
+  - luksi1
+tags:
+  - infrastructure
+repository: https://github.com/cnbailian/kubespray
+dependencies:
+  ansible.utils: '>=2.5.0'
+build_ignore:
+  - .github
+  - '*.tar.gz'
+  - extra_playbooks
+  - inventory
+  - scripts
+  - test-infra
+  - .ansible-lint
+  - .editorconfig
+  - .gitignore
+  - .gitlab-ci
+  - .gitlab-ci.yml
+  - .gitmodules
+  - .markdownlint.yaml
+  - .nojekyll
+  - .pre-commit-config.yaml
+  - .yamllint
+  - Dockerfile
+  - FILES.json
+  - MANIFEST.json
+  - Makefile
+  - Vagrantfile
+  - _config.yml
+  - ansible.cfg
+  - requirements*txt
+  - setup.cfg
+  - setup.py
+  - index.html
+  - library
+
